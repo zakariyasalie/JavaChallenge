@@ -42,14 +42,14 @@
             <label><input type="checkbox" name="subjects" value="VueJS">VueJS</label>
             
             <label><input type="checkbox" id="workingCheckbox">Are you working?</label>
-            <div id="workingHours">
+            <div id="workingHours" style="display: none;">
                 <label for="hours">Hours:</label>
                 <input type="number" id="hours">
                 <label for="rate">Rate:</label>
                 <input type="number" id="rate">
             </div>
             
-            <button type="button" onclick="calculateSalary()">Calculate Salary</button>
+            <button type="button" id="calculateButton">Calculate Salary</button>
             
             <div id="output"></div>
         </form>

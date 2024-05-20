@@ -1,3 +1,5 @@
+document.getElementById('calculateButton').addEventListener('click', calculateSalary);
+        
 function calculateSalary() {
     let firstName = document.getElementById('firstName').value;
     let lastName = document.getElementById('lastName').value;
